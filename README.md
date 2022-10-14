@@ -1,5 +1,4 @@
-# SentenceEmbedding_InferSent
-Sentence Embedding using InferSent
+# SentenceEmbedding_InferSent - Sentence Embedding using InferSent
 
 This code is written in python. Dependencies include:
 
@@ -42,4 +41,4 @@ curl -Lo encoder/infersent2.pkl https://dl.fbaipublicfiles.com/infersent/inferse
 
 **Note that infersent1 is trained with GloVe (which have been trained on text preprocessed with the PTB tokenizer) and infersent2 is trained with fastText (which have been trained on text preprocessed with the MOSES tokenizer). The latter also removes the padding of zeros with max-pooling which was inconvenient when embedding sentences outside of their batches.**
 
-
+**DOWNLOAD** THE models.py and extract_features.py files to the folder where the python code is present
