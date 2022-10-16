@@ -1,10 +1,10 @@
 # SentenceEmbedding_InferSent - Sentence Embedding using InferSent
 
 ## Sentence Embedding Model - Infersent,
-1) Load the file in Contect folder and use the model to perform Sentence embedding on the file\n",
-2) This Model Uses some function models.py and extract_features.py which needs to be present in the same location as the code\n",
+1) Load the file in Contect folder and use the model to perform Sentence embedding on the file",
+2) This Model Uses some function models.py and extract_features.py which needs to be present in the same location as the code",
 3) The Model does the encoding to generate the vectors. NOTE : The Word to Vectore packages for this Model needs to be in the Local machines / in content folder for the model to work well .\n",
-"Example : W2V_PATH = 'content/GloVe/glove.840B.300d.txt' if model_version == 1 else 'content/fastText/crawl-300d-2M.vec'\n",
+"Example : W2V_PATH = 'content/GloVe/glove.840B.300d.txt' if model_version == 1 else 'content/fastText/crawl-300d-2M.vec'",
 4) Uses the function cosine(u, v) to calculate the Cosine Similarity of the vectors
 
 **Download the word vectors to the Model**
